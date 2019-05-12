@@ -1,0 +1,48 @@
+<!DOCTYPE HTML>
+<html th:lang="${#locale.language}" xmlns:th="http://www.thymeleaf.org"
+	xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<b th:text="#{title}" />
+
+	<form action="#" th:action="@{/request}" th:object="${request}"
+		method="post">
+
+		<input type="hidden" th:field="*{id}" />
+		
+		<p>
+			<label><div th:text="#{kind}" /></label>
+			<select th:field="*{requestKind}">
+			    <option th:each="requestKind : ${requestKinds}" th:value="${requestKind.id}" th:text="#{${requestKind.messageCode}}"></option>
+			</select>
+		</p>
+		
+		<p>
+			<label><div th:text="#{policy.number}" /></label>
+			<input type="text" th:field="*{policyNumber}" th:placeholder="#{alphanumeric}" />
+			<i th:if="${#fields.hasErrors('policyNumber')}" th:errors="*{policyNumber}" />
+		</p>
+		<p>
+			<label><div th:text="#{name}" /></label>
+			<input type="text" th:field="*{name}" th:placeholder="#{letters}" />
+			<i th:if="${#fields.hasErrors('name')}" th:errors="*{name}" />
+		</p>
+		<p>
+			<label><div th:text="#{surname}" /></label>
+			<input type="text" th:field="*{surname}" th:placeholder="#{letters}" />
+			<i th:if="${#fields.hasErrors('surname')}" th:errors="*{surname}" />
+		</p>
+		<p>
+			<label><div th:text="#{text}" /></label>
+			<textarea type="text" th:field="*{text}" th:placeholder="#{size5000}" rows="10" cols="50"/>
+			<i th:if="${#fields.hasErrors('text')}" th:errors="*{text}" />
+		</p>
+		<p>
+			<input type="submit" th:value="#{submit}" />
+		</p>
+	</form>
+</body>
+</html>
+

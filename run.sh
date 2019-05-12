@@ -1,0 +1,1 @@
+docker build -t lundegaard/entry-test . && docker-compose up

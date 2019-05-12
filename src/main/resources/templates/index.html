@@ -1,0 +1,14 @@
+<!DOCTYPE HTML>
+<html th:lang="${#locale.language}" xmlns:th="http://www.thymeleaf.org"
+	xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+	<span th:if="${requestSaved}">Request saved</span>
+	
+	<p>
+		<a href="/request">Add a new request</a>
+	</p>
+</body>
+</html>
