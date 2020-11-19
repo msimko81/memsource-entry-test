@@ -1,4 +1,4 @@
-package cz.lundegaard.entrytest.request;
+package cz.memsource.entrytest.request;
 
 import java.util.List;
 

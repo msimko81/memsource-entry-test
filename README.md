@@ -1,6 +1,6 @@
-# Lundegaard entry test
+# Memsource entry test
 
-This project is a solution of a homework given by Lundegaard. It contains a web application with a simple form for request submission. 
+This project is a solution of a homework given by Memsource. It contains a web application with a simple form for request submission. 
 
 ## Prerequisites
 

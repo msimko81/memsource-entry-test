@@ -1,4 +1,4 @@
-package cz.lundegaard.entrytest;
+package cz.memsource.entrytest;
 
 import java.util.Locale;
 

@@ -1,6 +1,6 @@
 version: '2'
 services:
   web:
-    image: lundegaard/entry-test
+    image: memsource/entry-test
     ports: 
       - "8080:8080"

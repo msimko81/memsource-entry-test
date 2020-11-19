@@ -1,1 +1,1 @@
-docker build -t lundegaard/entry-test . && docker-compose up
+docker build -t memsource/entry-test . && docker-compose up

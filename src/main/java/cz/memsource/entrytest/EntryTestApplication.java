@@ -1,4 +1,4 @@
-package cz.lundegaard.entrytest;
+package cz.memsource.entrytest;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

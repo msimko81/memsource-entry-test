@@ -1,4 +1,4 @@
 FROM gradle:jdk11-slim
-ADD --chown=gradle . /lundegaard
-WORKDIR /lundegaard
+ADD --chown=gradle . /memsource
+WORKDIR /memsource
 CMD ["gradle", "bootRun"]
