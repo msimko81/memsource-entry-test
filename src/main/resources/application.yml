@@ -1,0 +1,14 @@
+spring:
+  thymeleaf.cache: true
+
+  h2.console:
+    enabled: false
+    settings.web-allow-others: true
+
+  # internationalization
+  messages.basename: i18n/messages
+
+logging.level.root: INFO
+
+memsource:
+  api.baseUrl: https://cloud.memsource.com/web

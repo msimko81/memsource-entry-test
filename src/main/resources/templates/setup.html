@@ -1,0 +1,31 @@
+<!DOCTYPE HTML>
+<html th:lang="${#locale.language}" xmlns:th="http://www.thymeleaf.org"
+      xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+</head>
+<body>
+<b th:text="#{account.title}"/>
+
+<form action="#" th:action="@{/setup}" th:object="${account}" method="post">
+    <p>
+        <label>
+            <div th:text="#{account.userName}"/>
+        </label>
+        <input type="text" th:field="*{userName}"/>
+    </p>
+    <p>
+        <label>
+            <div th:text="#{account.password}"/>
+        </label>
+        <input type="password" th:field="*{password}"/>
+    </p>
+    <p>
+        <input type="submit" th:value="#{account.submit}"/>
+    </p>
+    <p>
+        <a href="/">Back to index page</a>
+    </p>
+</form>
+</body>
+</html>

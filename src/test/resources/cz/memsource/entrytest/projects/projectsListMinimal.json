@@ -1,0 +1,21 @@
+{
+  "content": [
+    {
+      "targetLangs": [
+        "de",
+        "sk"
+      ],
+      "sourceLang": "en",
+      "name": "preklad",
+      "status": "ASSIGNED"
+    },
+    {
+      "targetLangs": [
+        "cs"
+      ],
+      "sourceLang": "sk",
+      "name": "test",
+      "status": "NEW"
+    }
+  ]
+}

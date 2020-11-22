@@ -1,0 +1,152 @@
+{
+  "pageNumber": 0,
+  "content": [
+    {
+      "internalId": 2,
+      "progress": {
+        "overdueCount": 0,
+        "totalCount": 0,
+        "finishedCount": 0
+      },
+      "dateCreated": "2020-11-20T06:10:20+0000",
+      "references": [],
+      "id": "20738320",
+      "analyseSettings": {
+        "id": "166265231"
+      },
+      "targetLangs": [
+        "de",
+        "sk"
+      ],
+      "financialSettings": {
+        "id": "22667577"
+      },
+      "subDomain": null,
+      "sourceLang": "en",
+      "businessUnit": null,
+      "purchaseOrder": null,
+      "dateDue": null,
+      "name": "preklad",
+      "owner": {
+        "userName": "miro.simko",
+        "uid": "1BQNJZluR0Bz9QUkM7N7p2",
+        "id": "540551",
+        "firstName": "Miroslav",
+        "lastName": "Šimko",
+        "role": "ADMIN",
+        "email": "miro.simko@seznam.cz"
+      },
+      "uid": "PJppf1o3000WHjKFMVQ0yX1",
+      "createdBy": {
+        "userName": "miro.simko",
+        "uid": "1BQNJZluR0Bz9QUkM7N7p2",
+        "id": "540551",
+        "firstName": "Miroslav",
+        "lastName": "Šimko",
+        "role": "ADMIN",
+        "email": "miro.simko@seznam.cz"
+      },
+      "client": null,
+      "status": "ASSIGNED",
+      "note": null,
+      "qualityAssuranceSettings": {
+        "id": "22679485"
+      },
+      "costCenter": null,
+      "domain": null,
+      "isPublishedOnJobBoard": false,
+      "shared": false,
+      "userRole": "ADMIN",
+      "accessSettings": {
+        "id": "22357237"
+      },
+      "mtSettingsPerLanguageList": [
+        {
+          "machineTranslateSettings": {
+            "type": "MEMSOURCE_TRANSLATE_SETTINGS",
+            "uid": "6sufAAKG4jaTeNwZFsyyR1",
+            "id": "714483",
+            "name": "Memsource Translate"
+          },
+          "targetLang": null
+        }
+      ],
+      "workflowSteps": []
+    },
+    {
+      "internalId": 1,
+      "progress": {
+        "overdueCount": 0,
+        "totalCount": 1,
+        "finishedCount": 0
+      },
+      "dateCreated": "2020-11-19T13:32:40+0000",
+      "references": [],
+      "id": "20733786",
+      "analyseSettings": {
+        "id": "166220733"
+      },
+      "targetLangs": [
+        "cs"
+      ],
+      "financialSettings": {
+        "id": "22661450"
+      },
+      "subDomain": null,
+      "sourceLang": "sk",
+      "businessUnit": null,
+      "purchaseOrder": "",
+      "dateDue": null,
+      "name": "test",
+      "owner": {
+        "userName": "miro.simko",
+        "uid": "1BQNJZluR0Bz9QUkM7N7p2",
+        "id": "540551",
+        "firstName": "Miroslav",
+        "lastName": "Šimko",
+        "role": "ADMIN",
+        "email": "miro.simko@seznam.cz"
+      },
+      "uid": "qJ43S14H1MGs84iLH3Nkw6",
+      "createdBy": {
+        "userName": "miro.simko",
+        "uid": "1BQNJZluR0Bz9QUkM7N7p2",
+        "id": "540551",
+        "firstName": "Miroslav",
+        "lastName": "Šimko",
+        "role": "ADMIN",
+        "email": "miro.simko@seznam.cz"
+      },
+      "client": null,
+      "status": "NEW",
+      "note": "",
+      "qualityAssuranceSettings": {
+        "id": "22673798"
+      },
+      "costCenter": null,
+      "domain": null,
+      "isPublishedOnJobBoard": false,
+      "shared": false,
+      "userRole": "ADMIN",
+      "accessSettings": {
+        "id": "22351628"
+      },
+      "mtSettingsPerLanguageList": [
+        {
+          "machineTranslateSettings": {
+            "type": "MEMSOURCE_TRANSLATE_SETTINGS",
+            "uid": "6sufAAKG4jaTeNwZFsyyR1",
+            "id": "714483",
+            "name": "Memsource Translate"
+          },
+          "targetLang": null
+        }
+      ],
+      "workflowSteps": []
+    }
+  ],
+  "numberOfElements": 2,
+  "totalElements": 2,
+  "pageSize": 50,
+  "totalPages": 1
+}
