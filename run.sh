@@ -1,1 +1,1 @@
-docker build -t memsource/entry-test . && docker-compose up
+DOCKER_BUILDKIT=1 docker build -t memsource/entry-test . && docker-compose up
